@@ -16,6 +16,10 @@ app.get('/acerca-de', (req, res) => {
 
 app.get('/habilidades', (req, res) => {
     res.send("habilidades")
+});
+
+app.get('/new', (req, res) => {
+    res.send('nueva pagina!!!!')
 })
 
 app.listen( process.env.PORT || 3000)
