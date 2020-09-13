@@ -20,6 +20,10 @@ app.get('/habilidades', (req, res) => {
 
 app.get('/new', (req, res) => {
     res.send('nueva pagina!!!!')
+});
+
+app.get('/myname', (req, res) => {
+    res.send('<h1>Fazt</h1>')
 })
 
 app.listen( process.env.PORT || 3000)
